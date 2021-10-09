@@ -33,7 +33,7 @@ private const val ARG_PARAM2 = "param2"
 class Home : Fragment() {
 
 
-    var baseurl="http://panel.qfonapp.xyz/app_api/"
+    var baseurl="https://localhost/poetryapis/postdata.php"
     lateinit var adapt: AdapterXt
     var modelss= arrayListOf<Model>()
     lateinit var recyclerView: RecyclerView
@@ -53,7 +53,7 @@ class Home : Fragment() {
         val lmger=LinearLayoutManager(activity)
         recyclerView.layoutManager=lmger
 
-       // apicall() as i tested apicall on my local host sothat i am using static response placed in the UtilsC
+       // apicall() as i tested apicall on my localhost sothat i am using static response placed in the UtilsC
         datafetch()
 
 
