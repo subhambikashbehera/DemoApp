@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.gietuportalofficial.demoapp.fragment.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/menuitem"
+        android:name="com.gietuportalofficial.demoapp.fragment.menuitem"
+        android:label="fragment_menuitem"
+        tools:layout="@layout/fragment_menuitem" />
+    <fragment
+        android:id="@+id/addd"
+        android:name="com.gietuportalofficial.demoapp.fragment.addd"
+        android:label="fragment_addd"
+        tools:layout="@layout/fragment_addd" />
+    <fragment
+        android:id="@+id/movie2"
+        android:name="com.gietuportalofficial.demoapp.fragment.movie"
+        android:label="fragment_movie"
+        tools:layout="@layout/fragment_movie" />
+    <fragment
+        android:id="@+id/people"
+        android:name="com.gietuportalofficial.demoapp.fragment.people"
+        android:label="fragment_people"
+        tools:layout="@layout/fragment_people" />
+</navigation>

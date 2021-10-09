@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "163186581497",
+    "project_id": "testingapp-eb8ba",
+    "storage_bucket": "testingapp-eb8ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163186581497:android:ddb7476880ce154e4aa728",
+        "android_client_info": {
+          "package_name": "com.gietuportalofficial.demoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163186581497-g1ft22uq90ijtuqdbimghbp3olkgk97n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhWMPxAirjONL2EATwd_4pzXqOektGb0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163186581497-g1ft22uq90ijtuqdbimghbp3olkgk97n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

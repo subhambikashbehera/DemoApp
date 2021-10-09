@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/home2"
+        android:icon="@drawable/home_icon"
+        android:title="home"
+        />
+    <item
+        android:id="@+id/menuitem"
+        android:icon="@drawable/menu_icon"
+        android:title="menu"
+        />
+    <item
+        android:id="@+id/addd"
+        android:icon="@drawable/add_icon"
+        android:title="add"
+        />
+    <item
+        android:id="@+id/movie2"
+        android:icon="@drawable/movie_icon"
+        android:title="Movie"
+        />
+    <item
+        android:id="@+id/people"
+        android:icon="@drawable/people_icon"
+        android:title="Profile"
+        />
+</menu>

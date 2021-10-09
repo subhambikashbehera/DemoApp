@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/drawable/add_icon.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/drawable/back_desk.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/drawable/bar_new.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/drawable/home_icon.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/drawable/menu_icon.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/drawable/movie_icon.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/drawable/people_icon.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/drawable/rounderupper.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/drawable/upper_layout.xml" value="0.125" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/drawable/uppertoolbarbackgroung.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/layout/activity_login.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/layout/activity_player.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/layout/drawer_layoutsssss.xml" value="0.1287037037037037" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/layout/drawerview_layout.xml" value="0.264" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/layout/fragment_addd.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/layout/fragment_home.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/layout/fragment_menuitem.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/layout/fragment_movie.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/layout/fragment_people.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/layout/item_demo.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/menu/bottomitem.xml" value="0.1" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/DemoApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1925925925925926" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

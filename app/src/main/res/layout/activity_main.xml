@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+<com.google.android.material.appbar.AppBarLayout
+    android:id="@+id/dksajhdfs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:elevation="0dp"
+    app:elevation="0dp"
+
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tooolbars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/uppertoolbarbackgroung"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            >
+
+            <ImageView
+                android:id="@+id/menu"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:padding="5dp"
+                android:src="@drawable/menu" />
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Demo App"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/search"
+                android:padding="5dp"
+                android:src="@drawable/translate" />
+
+            <ImageView
+                android:id="@+id/search"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@drawable/search" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+</com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomview"
+        android:elevation="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounderupper"
+        app:itemIconSize="38dp"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottomitem" />
+
+    <fragment
+        android:id="@+id/fragmentContainerView"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/dksajhdfs"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph" />
+</RelativeLayout>

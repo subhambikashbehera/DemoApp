@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="15dp"
+    android:layout_marginBottom="3dp"
+    android:layout_marginTop="3dp"
+    app:cardBackgroundColor="@color/white"
+    android:layout_marginHorizontal="7dp"
+    app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/first_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="18dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:elevation="20dp"
+                android:layout_width="30dp"
+                android:id="@+id/profile_img"
+                android:layout_height="30dp"
+                android:src="@drawable/photo"
+                app:shapeAppearance="@style/roundedImageViewRounded" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Astha"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_sub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Caption here"
+                    android:textColor="#878787" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    app:tint="#304FFE"
+                    android:id="@+id/add_friend"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/friendad" />
+
+                <ImageView
+                    app:tint="#000000"
+                    android:id="@+id/item_menu"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/dot" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/feed_data"
+            android:layout_width="match_parent"
+            android:layout_height="223dp"
+            android:layout_below="@id/first_layout"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="11dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg" />
+
+        <LinearLayout
+            android:id="@+id/feed_choice"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="223dp"
+            android:layout_below="@id/first_layout"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="11dp"
+            android:src="@drawable/player">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/player" />
+
+        </LinearLayout>
+
+        <VideoView
+            android:id="@+id/feed_data_video"
+            android:layout_width="match_parent"
+            android:layout_height="223dp"
+            android:layout_below="@id/feed_data"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/feed_data"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/whatsapp"
+                    android:src="@drawable/whatsapp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:tint="#13AF02" />
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/count_wp"
+                    android:text="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    app:tint="#6200EA"
+                    android:id="@+id/share"
+                    android:src="@drawable/send"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/count_sh"
+                    android:text="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/favorite"
+                    android:src="@drawable/like"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:tint="@color/red" />
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_marginStart="3dp"
+                    android:id="@+id/count_fav"
+                    android:text="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/message"
+                    android:src="@drawable/msg"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:tint="#2962FF" />
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_marginStart="3dp"
+                    android:id="@+id/count_msg"
+                    android:text="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    app:tint="#FF6D00"
+                    android:id="@+id/save"
+                    android:src="@drawable/downloaddd"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/count_save"
+                    android:text="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
